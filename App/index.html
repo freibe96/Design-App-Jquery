@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CS 480 Ex</title>
+	
+	<!-- Need following three lines to use a custom theme I made using ThemeRoller! (Note: I didn't make it very carefully or selectively...) -->
+	<!--
+	<link rel="stylesheet" href="css/themes/DemoTheme.css" />
+	<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.css">-->
+	
+	<!-- Need following three lines to use Jquery Mobile -->
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css"><!-- <- default styling, comment out if want to use custom theme like above -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.5.js"></script>
+</head>
+<body>
+
+
+
+
+<!-- Start of first page -->
+<div data-role="page" id="menu">
+
+	<div data-role="panel" data-position="right" data-display="overlay" id="menupanel">
+		<h3>Reach Us on Social Media!</h3>
+		<a href="https://www.facebook.com" class="ui-btn">Facebook</a>
+		<a href="https://www.twitter.com" class="ui-btn">Twitter</a>
+	</div><!-- /panel -->
+
+	<div data-role="header">
+		<h1>Menu</h1>
+		<a href="#menupanel" class="ui-btn-right">+</a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<a href="#oshkosh-info" class="ui-btn" data-transition="slide">Oshkosh Information</a>
+		<a href="#international-student" class="ui-btn" data-transition="slide">International Student Information</a>
+		<a href="#eaa" class="ui-btn" data-transition="slide">EAA</a>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+<!-- Start of second page -->
+<div data-role="page" id="oshkosh-info">
+
+	<div data-role="header">
+		<a href="#menu" class="ui-btn" data-transition="slide" data-direction="reverse"><</a>
+		<h1>Gallery</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
+		<a href="#subgallery" class="ui-btn" data-transition="slide">Go to sub gallery</a>
+		<a href="#menu" class="ui-btn" data-transition="slide" data-direction="reverse">Back to menu</a>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+<!-- Start of sub page for second page -->
+<div data-role="page" id="subgallery">
+
+	<div data-role="header">
+		<a href="#eaa" class="ui-btn" data-transition="slide" data-direction="reverse"><</a>
+		<h1>Sub Gallery</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>I am a sub-page!</p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+
+<!-- Start of third page -->
+<div data-role="page" id="international-student">
+
+	<div data-role="header">
+		<a href="#menu" class="ui-btn ui-icon-home ui-btn-icon-notext" data-transition="slide" data-direction="reverse"><</a>
+		<h1>Contact Us</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>I'm not first in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- Start Of EAA -->
+<div data-role="page" id="eaa">
+
+	<div data-role="header">
+		<a href="#menu" class="ui-btn ui-icon-home ui-btn-icon-notext" data-transition="slide" data-direction="reverse"></a>
+		<h1>EAA Info</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>EAA</p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
