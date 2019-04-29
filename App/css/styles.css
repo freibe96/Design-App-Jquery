@@ -44,3 +44,13 @@
     position: relative;
     margin: 5px;
 }
+
+.eaaImg{
+	background-image: url("https://static.themoscowtimes.com/image/article_1360/ce/2e591d3ff6604da2aa0222faad860e1c.jpg");
+	height: 500px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	position: relative;
+	margin: 5px;
+}
