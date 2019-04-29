@@ -1,0 +1,34 @@
+.whiteBackground {
+    background-color: white;
+}
+
+.center {
+    text-align: center;
+    text-decoration: none;
+}
+
+.smallButton {
+    width: 300px;
+}
+
+.static {
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    background-color: transparent;
+}
+  
+.static:hover {
+    opacity:0;
+}
+
+.animated {
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+}
+
+.socialMedia {
+    width: 50px;
+    height: 50px;
+}

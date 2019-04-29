@@ -14,7 +14,8 @@
 	<!-- Need following three lines to use Jquery Mobile -->
 	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css"><!-- <- default styling, comment out if want to use custom theme like above -->
 	<script src="js/jquery.js"></script>
-	<script src="js/jquery.mobile-1.4.5.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 </head>
 <body>
 
@@ -22,27 +23,44 @@
 
 
 <!-- Start of first page -->
-<div data-role="page" id="menu">
+<div data-role="page" id="menu" class="whiteBackground">
 
 	<div data-role="panel" data-position="right" data-display="overlay" id="menupanel">
 		<h3>Reach Us on Social Media!</h3>
-		<a href="https://www.facebook.com" class="ui-btn">Facebook</a>
-		<a href="https://www.twitter.com" class="ui-btn">Twitter</a>
+		<a href="https://www.facebook.com" class="ui-btn"><img class="socialMedia" src="images/facebook.png"></a>
+		<a href="https://www.twitter.com" class="ui-btn"><img class="socialMedia" src="images/twitter.png"></a>
 	</div><!-- /panel -->
 
 	<div data-role="header">
-		<h1>Menu</h1>
+		<h1>Information Hub</h1>
 		<a href="#menupanel" class="ui-btn-right">+</a>
 	</div><!-- /header -->
 
-	<div role="main" class="ui-content">
-		<a href="#oshkosh-info" class="ui-btn" data-transition="slide">Oshkosh Information</a>
-		<a href="#international-student" class="ui-btn" data-transition="slide">International Student Information</a>
-		<a href="#eaa" class="ui-btn" data-transition="slide">EAA</a>
+	<div role="main" class="ui-content center">
+		<a href="#oshkosh-info" class="smallButton" data-transition="slide">
+            <img class="static" src="images/info_static.jpg">
+            <img class="animated" src="images/info_menu_icon.gif"><br>
+            Oshkosh Information
+        </a><br>
+		<a href="#international-student" class="smallButton" data-transition="slide">
+            <img class="static" src="images/international_static.jpg">
+            <img class="animated" src="images/international_menu_icon.gif"><br>
+            International Student Information
+        </a><br>
+		<a href="#eaa" class="smallButton" data-transition="slide">
+            <img class="static" src="images/eaa_static.jpg">
+            <img class="animated" src="images/eaa_menu_icon.gif"><br>
+            EAA
+        </a><br>
+        <a href="#businessSearch" class="smallButton" data-transition="slide">
+            <img class="static" src="images/map_static.jpg">
+            <img class="animated" src="images/map_menu_icon.gif"><br>
+            Find a Business
+        </a>
 	</div><!-- /content -->
 
 	<div data-role="footer" data-position="fixed">
-		<h4>Page Footer</h4>
+        <h4>Footer</h4>
 	</div><!-- /footer -->
 </div><!-- /page -->
 
@@ -53,7 +71,7 @@
 <div data-role="page" id="oshkosh-info">
 
 	<div data-role="header">
-		<a href="#menu" class="ui-btn" data-transition="slide" data-direction="reverse"><</a>
+		<a href="#menu" class="ui-btn" data-transition="slide" data-direction="reverse"></a>
 		<h1>Gallery</h1>
 	</div><!-- /header -->
 
