@@ -46,11 +46,11 @@
 }
 
 .eaaImg{
-	background-image: url("https://static.themoscowtimes.com/image/article_1360/ce/2e591d3ff6604da2aa0222faad860e1c.jpg");
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2b/7-29-17-boeingplaza.jpg");
 	height: 500px;
   	background-position: center;
   	background-repeat: no-repeat;
-  	background-size: cover;
+  	background-size: auto auto;
 	position: relative;
 	margin: 5px;
 }
