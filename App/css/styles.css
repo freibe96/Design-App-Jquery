@@ -54,3 +54,12 @@
 	position: relative;
 	margin: 5px;
 }
+
+.searchImg{
+	height: 315px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	position: relative;
+	margin: 5px;
+}
