@@ -63,3 +63,13 @@
 	position: relative;
 	margin: 5px;
 }
+.resources-image {
+    background-image: url("http://www.potterlawson.com/wp-content/uploads/2013/06/Exterior-Front-1030x761.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+  }
