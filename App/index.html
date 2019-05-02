@@ -17,6 +17,13 @@
 	<!-- <- default styling, comment out if want to use custom theme like above -->
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.mobile-1.4.5.js"></script>
+	<script src="cordova.js"></script>
+	<script>
+		function openVolLink() {
+			cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+			// cordova.InAppBrowser.open("https://www.eaa.org/eaa/support-eaa/volunteer", "_blank", "location=yes");
+		}
+	</script>
 	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 
@@ -142,12 +149,12 @@
 						It offers everything from unique, historic aircrafts to world-class daily
 						air shows. Trust us, you don't want to miss the World's
 						Greatest Aviation Celebration. If you are interested in attending EAA you can purchase #OSH19
-						tickets <a href="https://www.eaa.org/en/airventure/EAA-AirVenture-Tickets/" target="_blank">here!</a>
+						tickets <a id="eaaLink">here!</a>
 					</p>
 					<fieldset class="ui-grid-solo">
 							<div class="ui-block-a"><input type="button" value="More Info"></div>
 						</fieldset>
-					<a href="https://www.eaa.org/eaa/support-eaa/volunteer" class="ui-btn" target="_blank">Volunteer at EAA</a>
+					<input type="button" value="Volunteer at EAA" class="ui-btn" id="eaaVolunteer" onclick="openVolLink()">
 					<a href="https://www.eaa.org/shop/Membership/Join.aspx" class="ui-btn" target="_blank">Join EAA</a>
 				</div>
 			</div>
