@@ -7,15 +7,11 @@
 
 <!-- versionCode is optional and Android only -->
 
-  <name>CS 480 Ex</name>
+  <name>UWOSH Info APp</name>
 
   <description>
-      An example PhoneGap app with JQueryMobile.
+      Information about Oshkosh
   </description>
-
-  <author href="https://www.uwosh.edu/faculty_staff/hillberg/" email="hillbergh@uwosh.edu">
-      Hannah Hillberg
-  </author>
   
   <icon src="icon.png" />
 
