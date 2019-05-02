@@ -33,28 +33,6 @@
     height: 50px;
 }
 
-
-.internationalInfoImg{
-    background-image: url("https://www.ci.oshkosh.wi.us/Resources/images/CityHall.jpg");
-    background-color: #cccccc;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin: 5px;
-}
-
-.eaaImg{
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2b/7-29-17-boeingplaza.jpg");
-	height: 500px;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: auto auto;
-	position: relative;
-	margin: 5px;
-}
-
 .searchImg{
 	height: 315px;
   	background-position: center;
@@ -63,13 +41,3 @@
 	position: relative;
 	margin: 5px;
 }
-.resources-image {
-    background-image: url("http://www.potterlawson.com/wp-content/uploads/2013/06/Exterior-Front-1030x761.jpg");
-    background-color: #cccccc;
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin: 5px;
-  }
