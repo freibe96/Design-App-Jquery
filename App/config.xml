@@ -19,6 +19,6 @@
   
   <icon src="icon.png" />
 
-  <plugin name="cordova-plugin-inappbrowser">
+  <plugin name="cordova-plugin-inappbrowser" />
 
 </widget>
