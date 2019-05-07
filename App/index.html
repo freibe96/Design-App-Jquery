@@ -73,7 +73,8 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
-			<div class="resources-image" style="text-align: center;"><img src="oshkosh_info.jpg" style="width: 100%;"></div>
+			<div class="resources-image" style="text-align: center;"><img src="oshkosh_info.jpg" style="width: 50%;">
+			</div>
 			<a href="https://uwosh.edu/career/" class="ui-btn" target="_blank">Career Center</a> <br>
 			<a href="https://www.uwosh.edu/couns_center/" class="ui-btn" target="_blank">Counseling Center</a> <br>
 			<a href="https://uwosh.edu/parking/" class="ui-btn" target="_blank">Parking Services</a> <br>
@@ -97,7 +98,7 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
-			<div class="internationalInfoImg" style="text-align: center;"><img src="city_hall.jpg" width="100%"></div>
+			<div class="internationalInfoImg" style="text-align: center;"><img src="city_hall.jpg" width="50%"></div>
 			<a href="https://www.ci.oshkosh.wi.us/transit/" class="ui-btn" target="_blank">Public Transportation</a>
 			<a href="https://www.oshkoshpubliclibrary.org/" class="ui-btn" target="_blank">Library</a>
 			<a href="https://visitoshkosh.com/events/" class="ui-btn" target="_blank">Oshkosh Events</a>
@@ -114,33 +115,43 @@
 			<h1>EAA Info</h1>
 		</div><!-- /header -->
 		<div role="main" class="ui-content">
-			<div style="text-align: center;"><img src="EAA_logo_.png" width="100%" height="50%">
+			<div style="text-align: center"><img src="EAA_logo_.png" width="50%" height="50%">
 				<div class="basic-info">
-					<fieldset class="ui-grid-solo">
-						<div class="ui-block-a"><input type="button" value="EAA Basic Info"></div>
-					</fieldset>
-					<p>
-						<h4>When is EAA?</h4>
-						EAA will be held July 22nd through July 28th in the year of 2019.
-					</p>
-					<p>
-						<h4>Where is EAA?</h4>
-						EAA will be held at the EAA Aviation Center located at
-						300 Poberezny Road Oshkosh, WI 54902.
-					</p>
-					<p>
-						<h4>What is EAA?</h4>
-						EAA is the largest annual garthering of aviation enthusiasts in the world.
-						It offers everything from unique, historic aircrafts to world-class daily
-						air shows. Trust us, you don't want to miss the World's
-						Greatest Aviation Celebration. If you are interested in attending EAA you can purchase #OSH19
-						tickets <a href="https://www.eaa.org/en/airventure/EAA-AirVenture-Tickets">here!</a>
-					</p>
-					<fieldset class="ui-grid-solo">
-							<div class="ui-block-a"><input type="button" value="More Info"></div>
-						</fieldset>
-					<a href="https://www.eaa.org/eaa/support-eaa/volunteer" class="ui-btn" target="_blank">Voulnteer at EAA</a>
-					<a href="https://www.eaa.org/shop/Membership/Join.aspx" class="ui-btn" target="_blank">Join EAA</a>
+					<ul data-role="listview" data-inset="true" data-divider-theme="a">
+						    <li data-role="list-divider">EAA Basic Info</li>
+						    <li>
+							<p>
+								<h4>When is EAA?</h4>
+								EAA will be held July 22nd through July 28th in the year of 2019.
+							</p>
+							</li>
+						    <li><p>
+								<h4>Where is EAA?</h4>
+								EAA will be held at the EAA Aviation Center located at
+								300 Poberezny Road Oshkosh, WI 54902.
+							</p></li>
+							<li><p>
+									<h4>What is EAA?</h4>
+									EAA is the largest annual garthering of aviation enthusiasts in the world.
+									It offers everything from unique, historic aircrafts to world-class daily
+									air shows.
+								</p></li>
+					</ul>
+					
+					<div data-role="collapsible" data-theme="b">
+							<h2>Helpful Links for EAA!</h2>
+							    <ul data-role="listview" data-filter="false">
+									<li><a href="https://www.eaa.org/airventure/EAA-AirVenture-Tickets" 
+										class="ui-btn" target="_blank">Get your tickes here!</a></li>
+							        <li><a href="https://www.eaa.org/eaa/support-eaa/volunteer" 
+										   class="ui-btn" target="_blank">Voulnteer at
+										EAA</a></li>
+							        <li><a href="https://www.eaa.org/shop/Membership/Join.aspx"
+										   class="ui-btn" target="_blank">Join EAA</a></li>
+							    </ul>
+						</div>
+					
+					
 				</div>
 			</div>
 		</div><!-- /content -->
@@ -174,7 +185,7 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content" style="text-align: center;">
-			<img class="" src="business_map.png" style="width: 100%;"/>
+			<img class="" src="business_map.png" style="width: 100%;" />
 		</div><!-- /content -->
 	</div><!-- /page -->
 
@@ -187,7 +198,7 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content" style="text-align: center;">
-			<img src="gas_station_map.png" style="width: 100%;"/>
+			<img src="gas_station_map.png" style="width: 100%;" />
 		</div><!-- /content -->
 	</div><!-- /page -->
 
@@ -200,12 +211,12 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content" style="text-align: center;">
-			<img src="restaurant_map.png" style="width: 100%;"/>
+			<img src="restaurant_map.png" style="width: 100%;" />
 		</div><!-- /content -->
 	</div><!-- /page -->
 
 	<!-- Start of eaa search page -->
-	<div data-role="page" id="eaa-search" >
+	<div data-role="page" id="eaa-search">
 
 		<div data-role="header">
 			<a href="#business-search" class="ui-btn" data-transition="slide" data-direction="reverse">
@@ -213,7 +224,7 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content" style="text-align: center;">
-			<img src="eaa_map.png" style="width: 100%;"/>
+			<img src="eaa_map.png" style="width: 100%;" />
 		</div><!-- /content -->
 	</div><!-- /page -->
 
