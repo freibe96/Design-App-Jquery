@@ -17,12 +17,6 @@
 	<!-- <- default styling, comment out if want to use custom theme like above -->
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.mobile-1.4.5.js"></script>
-	<script>
-		function openVolLink() {
-			cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
-			// cordova.InAppBrowser.open("https://www.eaa.org/eaa/support-eaa/volunteer", "_blank", "location=yes");
-		}
-	</script>
 	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 
@@ -79,7 +73,7 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
-
+			<div class="resources-image" style="text-align: center;"><img src="oshkosh_info.jpg" style="width: 100%;"></div>
 			<a href="https://uwosh.edu/career/" class="ui-btn" target="_blank">Career Center</a> <br>
 			<a href="https://www.uwosh.edu/couns_center/" class="ui-btn" target="_blank">Counseling Center</a> <br>
 			<a href="https://uwosh.edu/parking/" class="ui-btn" target="_blank">Parking Services</a> <br>
@@ -103,7 +97,7 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
-			<div class="internationalInfoImg" style="text-align: center;"><img src="city_hall.jpg">
+			<div class="internationalInfoImg" style="text-align: center;"><img src="city_hall.jpg" width="100%"></div>
 			<a href="https://www.ci.oshkosh.wi.us/transit/" class="ui-btn" target="_blank">Public Transportation</a>
 			<a href="https://www.oshkoshpubliclibrary.org/" class="ui-btn" target="_blank">Library</a>
 			<a href="https://visitoshkosh.com/events/" class="ui-btn" target="_blank">Oshkosh Events</a>
@@ -120,7 +114,7 @@
 			<h1>EAA Info</h1>
 		</div><!-- /header -->
 		<div role="main" class="ui-content">
-			<div style="text-align: center;"><img src="EAA_logo_.png">
+			<div style="text-align: center;"><img src="EAA_logo_.png" width="100%" height="50%">
 				<div class="basic-info">
 					<fieldset class="ui-grid-solo">
 						<div class="ui-block-a"><input type="button" value="EAA Basic Info"></div>
@@ -140,12 +134,12 @@
 						It offers everything from unique, historic aircrafts to world-class daily
 						air shows. Trust us, you don't want to miss the World's
 						Greatest Aviation Celebration. If you are interested in attending EAA you can purchase #OSH19
-						tickets <a id="eaaLink">here!</a>
+						tickets <a href="https://www.eaa.org/en/airventure/EAA-AirVenture-Tickets">here!</a>
 					</p>
 					<fieldset class="ui-grid-solo">
 							<div class="ui-block-a"><input type="button" value="More Info"></div>
 						</fieldset>
-					<input type="button" value="Volunteer at EAA" class="ui-btn" id="eaaVolunteer" onclick="openVolLink()">
+					<a href="https://www.eaa.org/eaa/support-eaa/volunteer" class="ui-btn" target="_blank">Voulnteer at EAA</a>
 					<a href="https://www.eaa.org/shop/Membership/Join.aspx" class="ui-btn" target="_blank">Join EAA</a>
 				</div>
 			</div>
